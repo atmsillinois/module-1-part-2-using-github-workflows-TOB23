@@ -42,3 +42,16 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+def calculate_circle_area(radius):
+    """
+    Calculates the area of a circle.
+
+    Args:
+        radius (float or int): The radius of the circle.
+
+    Returns:
+        float or int: The calculated area of the circle.
+    """
+    import math
+    return math.pi * (radius ** 2)
